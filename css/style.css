@@ -1,0 +1,23 @@
+#begin {
+  background-color: aqua;
+}
+
+#about-me {
+  background-color: darkcyan;
+}
+
+#projects {
+  background-color: aqua;
+}
+
+#technologies {
+  background-color: darkcyan;
+}
+
+#contact {
+  background-color: aqua;
+}
+
+footer {
+  text-align: center;
+}
