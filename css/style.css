@@ -48,7 +48,7 @@ nav a:hover {
 /* -------- MAIN CONTENT -------- */
 main {
   max-width: 1000px;
-  margin: 0 auto;
+
   padding: 20px;
 }
 
@@ -84,6 +84,51 @@ footer {
 }
 
 /* -------- RESPONSIVE -------- */
+/* Ocultar el checkbox y diseñar el botón hamburguesa */
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Navegación normal (pantallas grandes) */
+.responsive-nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Estilo para pantallas pequeñas */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    text-align: right;
+  }
+
+  .responsive-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  #menu-toggle:checked + .menu-icon + .responsive-nav {
+    display: flex;
+  }
+
+  .responsive-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #222;
+  }
+}
 @media (max-width: 768px) {
   nav {
     display: flex;
