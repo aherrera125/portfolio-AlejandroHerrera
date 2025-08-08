@@ -14,6 +14,7 @@ body {
 
 /* -------- HEADER -------- */
 header {
+  grid-area: header;
   background: #222;
   color: white;
   padding: 1rem;
@@ -31,6 +32,7 @@ header p {
 
 /* -------- NAV -------- */
 nav {
+  grid-area: nav;
   margin-top: 1rem;
 }
 
@@ -100,12 +102,28 @@ footer {
 .responsive-nav {
   display: flex;
   gap: 15px;
-  justify-content: center;
+  justify-content: right;
   margin: 1rem 0;
 }
 
+.container-begin {
+  display: flex;
+}
+
+.iFlex {
+  margin: 10px;
+  flex: 1;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.pFlex {
+  margin: 10px;
+  flex: 3;
+}
+
 /* Estilo para pantallas pequeñas */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
     text-align: right;
@@ -126,10 +144,8 @@ footer {
   .responsive-nav a {
     padding: 10px;
     text-decoration: none;
-    color: #222;
+    color: white;
   }
-}
-@media (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -153,5 +169,9 @@ footer {
 
   main {
     padding: 10px;
+  }
+  .iFlex {
+    width: 50px;
+    height: 80px;
   }
 }
