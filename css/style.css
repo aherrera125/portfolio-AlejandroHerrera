@@ -50,7 +50,6 @@ nav a:hover {
 /* -------- MAIN CONTENT -------- */
 main {
   max-width: 1000px;
-
   padding: 20px;
 }
 
@@ -128,7 +127,22 @@ footer {
 }
 
 .carousel-item img {
-  height: 200px; /* Altura fija */
+  height: 250px; /* Altura fija */
+}
+
+.container-videos {
+  display: flex;
+  gap: 20px;
+  align-items: stretch; /* asegura igual altura */
+  margin: 20px;
+}
+
+.video {
+  width: 80%;
+}
+
+.video-flex {
+  flex: 3;
 }
 
 /* Estilo para pantallas pequeñas */
@@ -194,5 +208,9 @@ footer {
 
   .carousel-item img {
     height: 120px; /* Altura fija */
+  }
+
+  .video {
+    width: 100%;
   }
 }
