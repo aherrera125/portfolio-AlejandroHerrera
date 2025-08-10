@@ -8,8 +8,10 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: grey;
+  /*color: #333;
+  text-shadow: 0 .05rem 0.1rem rgba(0, 0, 0, 0.5);*/
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
 /* -------- HEADER -------- */
@@ -49,6 +51,7 @@ nav a:hover {
 
 /* -------- MAIN CONTENT -------- */
 main {
+  margin: 0 auto; /* Centra horizontalmente */
   max-width: 1000px;
   padding: 20px;
 }
@@ -103,6 +106,7 @@ footer {
   gap: 15px;
   justify-content: right;
   margin: 1rem 0;
+  font-size: large;
 }
 
 .container-begin {
@@ -114,6 +118,10 @@ footer {
   flex: 1;
   width: 100px;
   border-radius: 50%;
+}
+
+p {
+  font-size: larger;
 }
 
 .pFlex {
@@ -156,7 +164,7 @@ footer {
   .responsive-nav {
     display: none;
     flex-direction: column;
-    background-color: #f2f2f2;
+    background-color: grey;
     padding: 10px 0;
     text-align: center;
   }
@@ -197,8 +205,11 @@ footer {
   }
 
   .iFlex {
-    width: 50px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #carouselExampleAutoplaying {
@@ -212,5 +223,13 @@ footer {
 
   .video {
     width: 100%;
+  }
+
+  .container-videos {
+    flex-direction: column;
+  }
+
+  .container-begin {
+    flex-direction: column;
   }
 }
