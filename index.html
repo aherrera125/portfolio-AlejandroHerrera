@@ -23,7 +23,6 @@
     <!--Navegador-->
     <nav class="responsive-nav">
       <a href="#begin">Sobre mi</a>
-      <!--<a href="#experiencia">Sobre mi</a>-->
       <a href="#projects">Proyectos</a>
       <a href="#technologies">Tecnologías</a>
       <a href="#videos">Videos</a>
@@ -39,17 +38,13 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="./img/html-logo.png"
+            src="./img/html5-logo.png"
             class="d-block w-100"
             alt="HTML logo"
           />
         </div>
         <div class="carousel-item">
-          <img
-            src="./img/css-3-logo.png"
-            class="d-block w-100"
-            alt="CSS logo"
-          />
+          <img src="./img/css3-logo.png" class="d-block w-100" alt="CSS logo" />
         </div>
         <div class="carousel-item">
           <img
@@ -115,26 +110,48 @@
               semántica, responsive y uso de Flexbox.
             </p>
             <a href="https://github.com/aherrera125/best-movie.git"
-              >Ver proyecto</a
+              >Ver proyecto github</a
+            >
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h3>Renta de autos y habitación de hotel</h3>
+            <p>Sitio dedicado a la renta de autos o habitacion de hotel.</p>
+            <a href="https://github.com/aherrera125/RentHotelCar.git"
+              >Ver proyecto github</a
             >
           </li>
         </ul>
       </section>
-      <section id="technologies">
-        <h2>Tecnologías</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git & GitHub</li>
-        </ul>
+      <h2>Tecnologías</h2>
+      <section id="technologies" class="section-flex">
+        <section class="order-flex">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
+        <section class="order-flex">
+          <ul>
+            <li>Git & GitHub</li>
+            <li>SQL</li>
+            <li>Postman</li>
+          </ul>
+        </section>
       </section>
       <section id="videos">
         <h3>Videos explicativos</h3>
         <div class="container-videos">
           <section class="video-flex">
             <p>HTML bien explicado</p>
-            <video src="./video/HTML-video.mp4" controls class="video">
+            <video
+              src="./video/HTML-video.mp4"
+              controls
+              class="video video-transform"
+            >
               Tu navegador no soporta el elemento de video.
             </video>
           </section>
@@ -154,7 +171,7 @@
       </section>
       <section id="contact">
         <h2>Contacto</h2>
-        <p>📧 j.alejandroherrera@email.com</p>
+        <p>📧 j.alejandroherrera@gmail.com</p>
         <p>📱 (+54) 3815 480 223</p>
         <p>
           <img
@@ -163,6 +180,14 @@
             width="20"
           />
           ale.herrera2510
+        </p>
+        <p>
+          <i class="fab fa-linkedin" style="color: #0a66c2"></i>
+          <a
+            href="https://www.linkedin.com/in/alejandro-herrera-23910a52/"
+            class="font-linkedin"
+            >alejandro.herrera</a
+          >
         </p>
       </section>
     </main>

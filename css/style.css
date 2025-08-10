@@ -104,8 +104,10 @@ footer {
 .responsive-nav {
   display: flex;
   gap: 15px;
-  justify-content: right;
-  margin: 1rem 0;
+  justify-content: flex-end;
+  margin-right: 20px; /* separa solo el lado derecho */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: large;
 }
 
@@ -149,8 +151,27 @@ p {
   width: 80%;
 }
 
+.video:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+.video:active {
+  transform: translateY(0) scale(0.95);
+}
+
 .video-flex {
   flex: 3;
+}
+.font-linkedin {
+  color: black;
+}
+
+.section-flex {
+  display: flex;
+}
+
+.order-flex {
+  flex: 2;
 }
 
 /* Estilo para pantallas pequeñas */
