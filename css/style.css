@@ -122,11 +122,21 @@ footer {
   flex: 3;
 }
 
+#carouselExampleAutoplaying {
+  width: 20%;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.carousel-item img {
+  height: 200px; /* Altura fija */
+}
+
 /* Estilo para pantallas pequeñas */
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
     text-align: right;
+    flex: 3;
   }
 
   .responsive-nav {
@@ -146,6 +156,7 @@ footer {
     text-decoration: none;
     color: white;
   }
+
   nav {
     display: flex;
     flex-direction: column;
@@ -170,8 +181,18 @@ footer {
   main {
     padding: 10px;
   }
+
   .iFlex {
     width: 50px;
     height: 80px;
+  }
+
+  #carouselExampleAutoplaying {
+    width: 30%;
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+
+  .carousel-item img {
+    height: 120px; /* Altura fija */
   }
 }
