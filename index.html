@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -23,13 +23,12 @@
     <!--Navegador-->
     <nav class="responsive-nav">
       <a href="#begin">Sobre mi</a>
+      <a href="#experiences">Experiencia</a>
       <a href="#projects">Proyectos</a>
-      <a href="#technologies">Tecnologías</a>
-      <a href="#videos">Videos</a>
       <a href="#contact">Contacto</a>
     </nav>
     <!--Carousel-->
-    <div
+    <!--<div
       id="carouselExampleAutoplaying"
       class="carousel slide"
       data-bs-ride="carousel"
@@ -73,59 +72,145 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    -->
     <main>
       <section id="begin">
-        <h2>Bienvenido a mi Portfolio</h2>
-        <p>
-          En este espacio encontrarás una presentación sobre mi, muestra de mis
-          proyectos, tecnologías que manejo y un poco más sobre mi recorrido
-          profesional. ¡Gracias por visitar!
-        </p>
+        <h1>Alejandro Herrera</h1>
+        <h3>Fullstack Developer</h3>
         <div class="container-begin">
           <img
             class="iFlex"
             src="./img/photoprofile.png"
             alt="Picture profile"
           />
-          <p class="pFlex">
-            Técnico Superior en Programación graduado de la Universidad
-            Tecnológica Nacional de Tucumán, Argentina. Cuento con experiencia
-            en desarollo de software, QA tester de pruebas manuales y
-            automatizadas, y liderazgo de equipos técnicos. Más de 10 años
-            trabajando en entornos colaborativos y ágiles. Experiencia en
-            comunicación con clientes en inglés tanto oral como escrita y
-            coordinación de equipos para alcanzar objetivos. Actualmente
-            cursando la Diplomatura en Desarrolo Web Fullstack en la UTN-BA para
-            actualizar mis conocimientos y mejorar mis prácticas.
-          </p>
+          <div class="description-column">
+            <p class="pFlex">
+              Técnico Superior en Programación y Diplomado en Desarrollo Web
+              Fullstack graduado de la Universidad Tecnológica Nacional,
+              Argentina.
+            </p>
+            <p class="pFlex">
+              Experiencia comprobable de 10 años en desarollo de software
+              frontend, backend, API Rest, Base de datos y liderazgo de equipos
+              técnicos. Buen dominio del idioma ingles tanto oral como escrito.
+              Asi tambien, excelente desempeño en entornos colaborativos, ágiles
+              y coordinación de equipos para alcanzar objetivos.
+            </p>
+            <p>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                alt="Instagram"
+                width="20"
+              />
+              <a
+                href="https://www.instagram.com/ale.herrera2510/"
+                class="color-font-contact"
+                >ale.herrera2510</a
+              >
+            </p>
+            <p>
+              <i class="fab fa-linkedin" style="color: #0a66c2"></i>
+              <a
+                href="https://www.linkedin.com/in/alejandro-herrera-23910a52/"
+                class="color-font-contact"
+                >alejandro.herrera</a
+              >
+            </p>
+          </div>
         </div>
+      </section>
+      <section id="experiences">
+        <h2>Experiencia</h2>
+        <ul>
+          <li class="background-transparent">
+            <h3>Analista de Sistemas – Sucrédito</h3>
+            <p>09/2025 – Actualidad</p>
+            <p>
+              Gestión de aplicaciones de procesamiento de archivos y resolución
+              de incidencias en tiempo real.
+            </p>
+            <p>Creación de consultas SQL para reportes y gestión de datos.</p>
+            <p>
+              Modificación y ejecución de funciones Java para carga y
+              procesamiento de información.
+            </p>
+          </li>
+          <li class="background-transparent">
+            <h3>Desarrollador Full-Stack / Manual QA – JBK Consulting</h3>
+            <p>06/2023 – 03/2024</p>
+            <p>
+              Mejora de funcionalidades frontend con React, JavaScript, HTML,
+              CSS; y backend con Node.js y Express.
+            </p>
+            <p>
+              Desarrollo y mantenimiento de frameworks de automatización con
+              Selenium, WebDriverIO y Postman.
+            </p>
+            <p>
+              Integración de testing automatizado en pipelines CI/CD, reduciendo
+              bugs de regresión en un 30%.
+            </p>
+          </li>
+          <li class="background-transparent">
+            <h3>Manual QA & Team Lead – JBK Consulting</h3>
+            <p>01/2019 – 05/2023</p>
+            <p>
+              Liderazgo de equipos de calidad de codigo y desarrollo de buenas
+              practicas.
+            </p>
+            <p>
+              Implementación de prácticas ágiles (dailys, sprint planning,
+              retrospectivas, regresion testing).
+            </p>
+            <p>
+              Mejora de estándares de cobertura de pruebas y mentoría de
+              perfiles junior.
+            </p>
+          </li>
+          <li class="background-transparent">
+            <h3>Software Developer (Full Stack) – JBK Consulting</h3>
+            <p>02/2014 – 12/2018</p>
+            <p>
+              Desarrollé interfaces de usuario adaptables con React, JavaScript,
+              HTML y CSS.
+            </p>
+            <p>Creé API RESTful y servicios de backend con Node.js y Java.</p>
+            <p>
+              Implementé arquitecturas seguras con integración de SQL Server.
+            </p>
+          </li>
+        </ul>
       </section>
       <section id="projects">
         <h2>Proyectos</h2>
         <ul>
-          <li>
+          <li class="background-transparent">
             <h3>Landing de película favorita</h3>
             <p>
               Sitio HTML/CSS dedicado a la saga de Rápido y Furioso. Estructura
               semántica, responsive y uso de Flexbox.
             </p>
-            <a href="https://github.com/aherrera125/best-movie.git"
+            <a
+              style="color: black"
+              href="https://github.com/aherrera125/best-movie.git"
               >Ver proyecto github</a
             >
           </li>
         </ul>
-
         <ul>
-          <li>
+          <li class="background-transparent">
             <h3>Renta de autos y habitación de hotel</h3>
             <p>Sitio dedicado a la renta de autos o habitacion de hotel.</p>
-            <a href="https://github.com/aherrera125/RentHotelCar.git"
+            <a
+              style="color: black"
+              href="https://github.com/aherrera125/RentHotelCar.git"
               >Ver proyecto github</a
             >
           </li>
         </ul>
       </section>
-      <h2>Tecnologías</h2>
+
+      <!--<h2>Experiencia</h2>
       <section id="technologies" class="section-flex">
         <section class="order-flex">
           <ul>
@@ -142,6 +227,7 @@
           </ul>
         </section>
       </section>
+      
       <section id="videos">
         <h3>Videos explicativos</h3>
         <div class="container-videos">
@@ -168,7 +254,7 @@
             </video>
           </section>
         </div>
-      </section>
+      </section>-->
       <section id="contact">
         <h2>Contacto</h2>
         <p>📧 j.alejandroherrera@gmail.com</p>
@@ -196,8 +282,9 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2025 - Sitio desarrollado por Alejandro Herrera</p>
-      <p>Diplomatura en Desarrollo Web Fullstack - UTNBA</p>
+      <p>&copy; 2026 - Sitio desarrollado por Alejandro Herrera</p>
+      <p>j.alejandroherrera@gmail.com</p>
+      <p>(+54) 3815 480 223</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
