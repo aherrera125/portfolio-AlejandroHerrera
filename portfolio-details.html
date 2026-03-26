@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio Details - SnapFolio Bootstrap Template</title>
+    <title>Portfolio Details</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -94,11 +94,11 @@
         <div
           class="container d-lg-flex justify-content-between align-items-center"
         >
-          <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+          <h1 class="mb-2 mb-lg-0">Detalles del Portfolio</h1>
           <nav class="breadcrumbs">
             <ol>
-              <li><a href="index.html">Home</a></li>
-              <li class="current">Portfolio Details</li>
+              <li><a href="index.html">Inicio</a></li>
+              <li class="current">Detalles del Portfolio</li>
             </ol>
           </nav>
         </div>
@@ -130,7 +130,7 @@
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/portfolio-1.webp"
+                      src="assets/img/patitasFelicesHistorias.png"
                       alt="Portfolio Image"
                       class="img-fluid"
                       loading="lazy"
@@ -139,7 +139,7 @@
 
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/portfolio-10.webp"
+                      src="assets/img/patitasFelicesUsuarios.png"
                       alt="Portfolio Image"
                       class="img-fluid"
                       loading="lazy"
@@ -148,7 +148,7 @@
 
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/portfolio-7.webp"
+                      src="assets/img/patitasFelicesUsuariosAlta.png"
                       alt="Portfolio Image"
                       class="img-fluid"
                       loading="lazy"
@@ -165,16 +165,17 @@
                 data-aos="fade-left"
                 data-aos-delay="200"
               >
-                <h3>Project Information</h3>
+                <h3>Links</h3>           
                 <ul>
-                  <li><strong>Category</strong>: Web Development</li>
-                  <li><strong>Client</strong>: Victoria Technologies</li>
-                  <li><strong>Project date</strong>: 01 March, 2024</li>
                   <li>
-                    <strong>Project URL</strong>:
-                    <a href="#" target="_blank">www.example.com</a>
+                    <a href="https://github.com/aherrera125/tp-final-Alejandro-Herrera.git">Repositorio Patitas Felices</a>
                   </li>
-                </ul>
+                  <li>
+                    <a href="https://tp-final-ah-patitasfelices.vercel.app/">Url Patitas Felices</a>
+                  </li>
+                </ul>     
+                
+                
               </div>
             </div>
 
@@ -184,24 +185,20 @@
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h2>Project Overview</h2>
+                <h2>Veterinaria Patitas Felices</h2>
                 <p>
-                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                  itaque inventore commodi labore quia quia. Exercitationem
-                  repudiandae officiis neque suscipit non officia eaque itaque
-                  enim. Voluptatem officia accusantium nesciunt est omnis
-                  tempora consectetur dignissimos. Sequi nulla at esse enim cum
-                  deserunt eius.
+                  Sistema web full stack orientado a la gestión de clínicas veterinarias. 
+                  Permite administrar pacientes, dueños e historiales clínicos en una plataforma centralizada con 
+                  autenticación segura y control de roles.
                 </p>
                 <p>
-                  Amet consequatur qui dolore veniam voluptatem voluptatem sit.
-                  Non aspernatur atque natus ut cum nam et. Praesentium error
-                  dolores rerum minus sequi quia veritatis eum. Eos et doloribus
-                  doloremque nesciunt molestiae laboriosam.
+                  Desarrollé una arquitectura completa cliente-servidor, implementando autenticación con JWT, 
+                  encriptación de contraseñas y una API REST para la gestión eficiente de datos. 
+                  El sistema está desplegado en la nube utilizando servicios modernos para frontend, backend y base de datos.
                 </p>
 
                 <div class="features mt-4">
-                  <h3>Key Features</h3>
+                  <h3>Funcionalidades principales</h3>
                   <div class="row gy-3">
                     <div class="col-md-6">
                       <div
@@ -210,12 +207,18 @@
                         data-aos-delay="400"
                       >
                         <i class="bi bi-check-circle-fill"></i>
-                        <h4>Responsive Design</h4>
-                        <p>
-                          Voluptatum deleniti atque corrupti quos dolores et
-                          quas molestias excepturi sint occaecati cupiditate non
-                          provident
-                        </p>
+                        <h4>Autenticación y autorización</h4>
+                        <ul>
+                          <li>
+                            Login con JWT                          
+                          </li>
+                          <li>                          
+                            Encriptación de contraseñas con bcrypt                          
+                          </li>
+                          <li>                          
+                            Manejo de roles de usuario
+                          </li>
+                        </ul>                        
                       </div>
                     </div>
 
@@ -226,12 +229,15 @@
                         data-aos-delay="500"
                       >
                         <i class="bi bi-shield-check"></i>
-                        <h4>Advanced Security</h4>
-                        <p>
-                          Minim veniam, quis nostrud exercitation ullamco
-                          laboris nisi ut aliquip ex ea commodo consequat tarad
-                          limino ata
-                        </p>
+                        <h4>Gestión de pacientes</h4>
+                        <ul>
+                          <li>
+                            CRUD de mascotas
+                          </li>
+                          <li>
+                            Asociación con sus respectivos dueños
+                          </li>
+                        </ul>
                       </div>
                     </div>
 
@@ -242,11 +248,15 @@
                         data-aos-delay="600"
                       >
                         <i class="bi bi-graph-up"></i>
-                        <h4>Performance Optimization</h4>
-                        <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur
-                        </p>
+                        <h4>Historia clínica</h4>
+                        <ul>
+                          <li>
+                            Registro y edición de historial médico
+                          </li>
+                          <li>
+                            Relación entre mascota, dueño y atención clínica
+                          </li>
+                        </ul>
                       </div>
                     </div>
 
@@ -257,12 +267,82 @@
                         data-aos-delay="700"
                       >
                         <i class="bi bi-gear"></i>
-                        <h4>Easy Integration</h4>
-                        <p>
-                          Excepteur sint occaecat cupidatat non proident, sunt
-                          in culpa qui officia deserunt mollit anim id est
-                          laborum
-                        </p>
+                        <h4>Gestión de dueños</h4>
+                        <ul>
+                          <li>
+                            Alta, baja y modificación de clientes
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="features mt-4">
+                  <h3>Tecnologías utilizadas</h3>
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <div
+                        class="feature-item"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
+                        <i class="bi bi-check-circle-fill"></i>
+                        <h4>Frontend</h4>
+                        <ul>
+                          <li>HTML5, CSS3, JavaScript</li>
+                          <li>Bootstrap 5</li>
+                          <li>Vite</li>
+                        </ul>                        
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div
+                        class="feature-item"
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                      >
+                        <i class="bi bi-shield-check"></i>
+                        <h4>Backend</h4>
+                        <ul>
+                          <li>Node.js + TypeScript</li>
+                          <li>Express</li>
+                          <li>MySQL (mysql2)</li>
+                          <li>JWT + bcrypt</li>                          
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div
+                        class="feature-item"
+                        data-aos="fade-up"
+                        data-aos-delay="600"
+                      >
+                        <i class="bi bi-graph-up"></i>
+                        <h4>Base de datos</h4>
+                        <ul>
+                          <li>MySQL</li>
+                          <li>Docker + phpMyAdmin (entorno local)</li>
+                          <li>Railway (producción)</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div
+                        class="feature-item"
+                        data-aos="fade-up"
+                        data-aos-delay="700"
+                      >
+                        <i class="bi bi-gear"></i>
+                        <h4>Deploy</h4>
+                        <ul>
+                          <li>Frontend: Vercel</li>
+                          <li>Backend: Render</li>
+                          <li>Base de datos: Railway</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
